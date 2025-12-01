@@ -9,3 +9,4 @@ used to document our code. We can access these docstrings using the .__doc__ att
   return(n*factorial(n-1))
 n=int(input("Enter a Positive Number:"))
 print("The Factorial of the given Number is:",factorial(n))
+print(factorial(n).__doc__)
